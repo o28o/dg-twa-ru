@@ -57,8 +57,6 @@
             android:value="@string/generatorApp" />
 
         
-
-
         <activity android:name="LauncherActivity"
             android:alwaysRetainTaskState="true"
             android:label="@string/launcherName"
@@ -107,18 +105,13 @@
             <meta-data android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
                 android:value="@string/fallbackType" />
 
-            
                 <meta-data
                     android:name="android.support.customtabs.trusted.METADATA_SHARE_TARGET"
                     android:resource="@string/shareTarget"/>
             
-
-            
-
             <meta-data android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
                 android:value="@string/orientation"/>
 
-            
 
             
                 <intent-filter>
@@ -155,13 +148,8 @@
                 />
             </intent-filter>
 
-            
-
-            
         </activity>
-
         <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
-
         <activity android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
             android:configChanges="orientation|screenSize" />
 

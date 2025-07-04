@@ -28,7 +28,7 @@
         \"relation\": [\"delegate_permission/common.handle_all_urls\"],
         \"target\": {
             \"namespace\": \"web\",
-            \"site\": \"https://dhamma.gift\"
+	  \"site\": \"https://dhamma.gift/ru\"
         }
     }]
     
@@ -37,7 +37,7 @@
   <!-- Share Target configuration matching web app's manifest -->
   <string name="shareTarget">
     {
-      "action": "/",
+	  "action": "/ru",
       "method": "GET",
       "enctype": "application/x-www-form-urlencoded",
       "params": {
