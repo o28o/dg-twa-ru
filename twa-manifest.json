@@ -19,8 +19,8 @@
     "path": "/mnt/c/soft/twa/android.keystore",
     "alias": "android"
   },
-  "appVersionName": "1",
-  "appVersionCode": 1,
+  "appVersionName": "2",
+  "appVersionCode": 2,
   "shortcuts": [
     {
       "name": "DG Read",
@@ -74,5 +74,5 @@
   "protocolHandlers": [],
   "fileHandlers": [],
   "launchHandlerClientMode": "focus-existing",
-  "appVersion": "1"
+  "appVersion": "2"
 }
