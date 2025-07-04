@@ -1,0 +1,78 @@
+{
+  "packageId": "gift.dhamma.twa",
+  "host": "dhamma.gift",
+  "name": "Dhamma.Gift",
+  "launcherName": "Dhamma.Gift",
+  "display": "minimal-ui",
+  "themeColor": "#2E3E50",
+  "themeColorDark": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#2E3E50",
+  "enableNotifications": true,
+  "startUrl": "/ru/?source=pwa",
+  "iconUrl": "https://dhamma.gift/assets/img/pwa-bold-monocolor-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "/mnt/c/soft/twa/android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "DG Read",
+      "shortName": "DG Read",
+      "url": "https://dhamma.gift/ru/read.php",
+      "chosenIconUrl": "https://dhamma.gift/assets/img/maniIcon.png"
+    },
+    {
+      "name": "Dict.Dhamma.Gift",
+      "shortName": "Dict.Dhamma.",
+      "url": "https://dhamma.gift/ru/assets/openDDG.html",
+      "chosenIconUrl": "https://dhamma.gift/assets/svg/dpd-logo-dark.svg"
+    },
+    {
+      "name": "Bhikkhu Patimokkha",
+      "shortName": "Bhikkhu Pati",
+      "url": "https://dhamma.gift/ru/pm.php?expand=true",
+      "chosenIconUrl": "https://dhamma.gift/assets/img/monkIcon.png"
+    },
+    {
+      "name": "Bhikkhuni Patimokkha",
+      "shortName": "Bhikkhuni Pa",
+      "url": "https://dhamma.gift/ru/bipm.php?expand=true",
+      "chosenIconUrl": "https://dhamma.gift/assets/img/nunIcon.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://dhamma.gift/ru/manifest.php",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://dhamma.gift/",
+  "minSdkVersion": 21,
+  "shareTarget": {
+    "action": "https://dhamma.gift/ru/",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "text": "q"
+    }
+  },
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [],
+  "fileHandlers": [],
+  "launchHandlerClientMode": "focus-existing",
+  "appVersion": "1"
+}
